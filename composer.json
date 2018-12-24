@@ -11,8 +11,7 @@
     "magento-hackathon/magento-composer-installer": "3.1.*",
     "aydin-hassan/magento-core-composer-installer" : "~1.0",
     "magento/core": "1.9.4.0",
-    "dweeves/magmi": "dev-master",
-    "aoepeople/aoe_scheduler": "1.0.*"
+    "hartmut-co-uk/magento-php7-totals-fix": "dev-master"
   },
   "require-dev": {
     "ecomdev/mage-ci": "dev-master"
