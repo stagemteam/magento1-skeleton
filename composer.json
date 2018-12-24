@@ -25,6 +25,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/miguelbalparda/MB_Translate.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/hartmut-co-uk/magento-php7-totals-fix"
     }
   ],
   "extra": {
