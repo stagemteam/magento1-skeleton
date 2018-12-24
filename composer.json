@@ -1,0 +1,38 @@
+{
+  "name": "stagemteam/magento1-skeleton",
+  "license": "BSD-3-Clause",
+  "type": "magento-module",
+  "description": "Magento Skeleton",
+  "homepage": "http://url.example",
+  "authors":[{
+    "name": "Serhii Popov"
+  }],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "3.1.*",
+    "aydin-hassan/magento-core-composer-installer" : "~1.0",
+    "magento/core": "1.9.4.0",
+    "dweeves/magmi": "dev-master",
+    "aoepeople/aoe_scheduler": "1.0.*"
+  },
+  "require-dev": {
+    "ecomdev/mage-ci": "dev-master"
+  },
+
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"https://packages.firegento.com"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/miguelbalparda/MB_Translate.git"
+    }
+  ],
+  "extra": {
+    "magento-root-dir": "htdocs/",
+    "magento-deploystrategy": "symlink",
+    "auto-append-gitignore": true,
+
+    "magento-force": true
+  }
+}
